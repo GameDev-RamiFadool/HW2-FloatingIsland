@@ -1,0 +1,22 @@
+
+# Automatically detect text and binary files.
+* text=auto
+
+# Keep Unity files with LF line endings.
+*.meta text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+*.mat text eol=lf
+*.cs text eol=lf
+*.shader text eol=lf
+
+# Keep image and audio files as binary.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.wav binary
+*.mp3 binary
